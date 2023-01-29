@@ -59,6 +59,7 @@ body {
     padding: 80px 24px 0 24px;
     background-color: var(--peach);
     color: var(--white);
+    overflow: hidden;
 }
 
 .hero-title {
@@ -67,4 +68,6 @@ body {
     font-weight: 500;
 }
 
-.hero-img 
+.hero-img {
+    margin-bottom: -9.5em;
+}
