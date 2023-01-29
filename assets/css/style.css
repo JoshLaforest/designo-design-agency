@@ -11,14 +11,21 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
+.container {
+    width: 100%;
+    max-width: 1111px;
+    margin: 0 auto;
+}
+
 .navbar {
     display: flex;
     align-items: center;
+    padding: 24px 35px;
 }
 
 .navmenu {
     list-style: none;
-    display: flex;
+    display: none;
     gap: 40px;
     margin-left: auto;
 }
@@ -33,3 +40,31 @@ body {
 .logo {
     max-width: 200px;
 }
+
+.hamburger {
+    margin-left: auto;
+}
+
+.bar {
+    width: 24px;
+    height: 4px;
+    background-color: var(--black);
+    margin: 4px 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 24px 0 24px;
+    background-color: var(--peach);
+    color: var(--white);
+}
+
+.hero-title {
+    font-size: clamp(2rem, 1.6667rem + 1.4815vw, 3rem);
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.hero-img 
