@@ -1,3 +1,35 @@
+:root {
+    --peach: #E7816B;
+    --black: #1D1C1E;
+    --white: #ffffff;
+    --light-peach: #FFAD9B;
+    --dark-gray: #333136;
+    --light-gray: #F1F3F5;
+}
+
 body {
     font-family: 'Jost', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navmenu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--dark-gray);
+    letter-spacing: 0.02em;
+}
+
+.logo {
+    max-width: 200px;
 }
